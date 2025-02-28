@@ -49,9 +49,6 @@ def on_button_clicked(value):
     else:
         #Update the state of the entry var with the value coming from the button argument
         entry_var.set(current + str (value))
-
-
-    
     
 #Initialise the Window
 root = Tk()
